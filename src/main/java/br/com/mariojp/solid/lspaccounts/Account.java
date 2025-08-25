@@ -1,6 +1,6 @@
 package br.com.mariojp.solid.lspaccounts;
 
-public class Account {
+public abstract class Account {
     protected double balance;
 
     public void deposit(double amount){
